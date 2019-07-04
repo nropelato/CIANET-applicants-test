@@ -1,0 +1,19 @@
+{
+  "name": "applicants-test",
+  "version": "1.0.0",
+  "description": "An testing environment for the applicants build code and send",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "avg": "mocha test/average.test.js",
+    "fibonacci": "mocha test/fibonacci.test.js",
+    "palindrome": "mocha test/palindrome.test.js",
+    "pangram": "mocha test/pangram.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
