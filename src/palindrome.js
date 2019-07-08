@@ -6,5 +6,8 @@
  * @returns {boolean}
  */
 module.exports = function (text) {
+    let lowCaseText = text.replace(' ', '').toLowerCase();
+    let reversedArray = lowCaseText.split('').reverse().join('');
 
+    return lowCaseText === reversedArray;
 }

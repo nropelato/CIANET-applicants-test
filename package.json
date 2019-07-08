@@ -15,5 +15,16 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.1.4"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/fabiocianet/aplicants-test.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/fabiocianet/aplicants-test/issues"
+  },
+  "homepage": "https://gitlab.com/fabiocianet/aplicants-test#README"
 }

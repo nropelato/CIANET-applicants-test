@@ -8,6 +8,17 @@
  * @param sentence
  * @returns {boolean}
  */
-module.exports = function (sentence) {
 
+module.exports = function (sentence) {
+    if(sentence.trim() == '') return false;
+    
+    let alphabet = 'abcdefghijklmnopqrstuvwxyz';
+    let lowCaseSentence = sentence.toLowerCase();
+
+    for(let i=0; i<alphabet.length; i++) {
+        if(lowCaseSentence.indexOf(alphabet[i]) == -1) 
+            return false;
+    }
+
+    return true;
 }

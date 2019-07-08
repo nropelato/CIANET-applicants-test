@@ -6,5 +6,6 @@
  * @returns {number}
  */
 module.exports = function (a, b) {
-
+    let sum = a + b;
+    return sum / 2;
 }
